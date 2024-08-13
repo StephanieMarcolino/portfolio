@@ -1,16 +1,16 @@
 {
-  "name": "my-personal-site",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/StephanieMarcolino/portfolio.git",
+  "homepage": "http://StephanieMarcolino.github.io/portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
