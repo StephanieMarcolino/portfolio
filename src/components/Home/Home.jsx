@@ -15,13 +15,10 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Olá!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
               </h1>
 
               <h1 className="heading-name">
-                Eu <source srcset="" type="image/" />
+                Eu sou <source srcset="" type="image/" />
                 <strong className="main-name"> Stephanie</strong>
               </h1>
 
@@ -35,7 +32,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "350px" }}
               />
             </Col>
           </Row>
