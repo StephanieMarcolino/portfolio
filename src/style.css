@@ -14,7 +14,6 @@ html {
   --imp-text-color: #ff4d94; /* Rosa */
 }
 
-
 .pink {
   color: var(--imp-text-color) !important;
 }

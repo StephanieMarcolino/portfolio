@@ -19,7 +19,6 @@ function Home2() {
       setShowAlert({ visible: true, variant: "danger", message: "Por favor, preencha todos os campos!" });
     } else {
       setShowAlert({ visible: true, variant: "success", message: "Formulário enviado com sucesso!" });
-      // Aqui você pode adicionar o código para realmente enviar o formulário
     }
   };
 
